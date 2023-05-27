@@ -1,0 +1,74 @@
+<html>
+<head><title>Calculator using Javascript</title>
+<script src="script.js"></script>
+<style>
+body{
+margin:10;
+padding:0;
+background:#F5F5DC;
+}
+h1{
+background-color:yellow;
+padding: 50px;
+margin:10;
+}
+.buttons{
+background-color:green;  
+margin:15;
+width:280;
+hieght:200;
+margin:20;
+padding:20;
+}
+.buttondesign{
+background-color:yellow;
+padding:15;
+text-align:center;
+cursor:pointer;
+}
+.button1 {
+width: 180px;
+background-color:yellow;
+padding:15;
+text-align:center;
+cursor:pointer;
+}
+.div1{
+width: 280px;
+border: 10px solid green;
+padding: 10px;
+margin: 20px;
+background-color:yellow;
+}
+</style>
+</head>
+<body>
+<h1 align="center"><font face="Courier New" size=9>CALCULATOR</h1>
+<br>
+
+<div id="screen" class="div1">
+</div>
+<div class="buttons" align="center">
+<button onclick="append(9)" class="buttondesign">9</button>
+<button onclick="append(8)" class="buttondesign">8</button>
+<button onclick="append(7)" class="buttondesign">7</button>
+<button onclick="append('+')" class="buttondesign">+</button><br>
+<button onclick="append(6)" class="buttondesign">6</button>
+<button onclick="append(5)" class="buttondesign">5</button>
+<button onclick="append(4)" class="buttondesign">4</button>
+<button onclick="append('-')" class="buttondesign">-</button><br>
+<button onclick="append(3)" class="buttondesign">3</button>
+<button onclick="append(2)"class="buttondesign">2</button>
+<button onclick="append(1)" class="buttondesign">1</button>
+<button onclick="append('x')" class="buttondesign">x</button><br>
+<button onclick="output()" class="buttondesign">=</button>
+<button onclick="append(0)" class="buttondesign">0</button>
+<button onclick="append('.')" class="buttondesign">.</button>
+<button onclick="append('/')" class="buttondesign">/</button>
+<button onclick="clearscreen()" class="button1">CLEAR</button>
+<button onclick="clearlast()" class="buttondesign">C</button>
+
+</div>
+</div>  
+</body>
+</html>
