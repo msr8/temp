@@ -19,7 +19,7 @@ screen.innerHTML=prev_text;
 function output()
 {
 const screen=document.getElementById("screen");
-let answer=eval(screen.innerHTML);
+let answer=eval(screen.innerHTML.replace("x","*"));
 screen.innerHTML=answer;
 }
 
