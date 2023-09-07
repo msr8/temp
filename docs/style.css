@@ -443,7 +443,7 @@ body {
 }
 
 .contact-box textarea {
-    resize: nonw;
+    resize: none;
     height: 15rem;
 }
 
